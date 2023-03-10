@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-10T19:49:35 IST" name="Page Object test example" finished-at="2023-03-10T19:50:56 IST" duration-ms="81057">
+    <groups>
+    </groups>
+    <test started-at="2023-03-10T19:49:35 IST" name="test-1" finished-at="2023-03-10T19:50:56 IST" duration-ms="81057">
+      <class name="com.OrangeHRM.test.OrangeHRM_Login">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.OrangeHRM.test.OrangeHRM_Login@79ad8b2f]" started-at="2023-03-10T19:49:35 IST" name="SetUp" finished-at="2023-03-10T19:49:36 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.OrangeHRM.test.OrangeHRM_Login@79ad8b2f]" started-at="2023-03-10T19:49:36 IST" name="initializeTestBaseSetup" finished-at="2023-03-10T19:50:26 IST" duration-ms="50325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHRM.test.OrangeHRM_Login@79ad8b2f]" started-at="2023-03-10T19:50:26 IST" name="setUp" finished-at="2023-03-10T19:50:26 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyLoginurlTest(java.lang.String, java.lang.String)[pri:1, instance:com.OrangeHRM.test.OrangeHRM_Login@79ad8b2f]" started-at="2023-03-10T19:50:26 IST" name="VerifyLoginurlTest" description="verifySignInPageURL() method call for URL verification" data-provider="Login" finished-at="2023-03-10T19:50:38 IST" duration-ms="12495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginurlTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.OrangeHRM.test.OrangeHRM_Login@79ad8b2f]" started-at="2023-03-10T19:50:38 IST" name="tearDown" finished-at="2023-03-10T19:50:38 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginurlTest status=SUCCESS method=OrangeHRM_Login.VerifyLoginurlTest(java.lang.String, java.lang.String)[pri:1, instance:com.OrangeHRM.test.OrangeHRM_Login@79ad8b2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyLogintextTest(java.lang.String, java.lang.String)[pri:2, instance:com.OrangeHRM.test.OrangeHRM_Login@79ad8b2f]" started-at="2023-03-10T19:50:38 IST" name="VerifyLogintextTest" description="verifySignInPageText() method call for Tab verification" data-provider="Login" finished-at="2023-03-10T19:50:51 IST" duration-ms="12353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogintextTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.OrangeHRM.test.OrangeHRM_Login@79ad8b2f]" started-at="2023-03-10T19:50:51 IST" name="tearDown" finished-at="2023-03-10T19:50:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLogintextTest status=SUCCESS method=OrangeHRM_Login.VerifyLogintextTest(java.lang.String, java.lang.String)[pri:2, instance:com.OrangeHRM.test.OrangeHRM_Login@79ad8b2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="logoVerifyTest()[pri:3, instance:com.OrangeHRM.test.OrangeHRM_Login@79ad8b2f]" started-at="2023-03-10T19:50:51 IST" name="logoVerifyTest" description="validateLogo() method call for logo verification" finished-at="2023-03-10T19:50:54 IST" duration-ms="3598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoVerifyTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.OrangeHRM.test.OrangeHRM_Login@79ad8b2f]" started-at="2023-03-10T19:50:54 IST" name="tearDown" finished-at="2023-03-10T19:50:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoVerifyTest status=SUCCESS method=OrangeHRM_Login.logoVerifyTest()[pri:3, instance:com.OrangeHRM.test.OrangeHRM_Login@79ad8b2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHRM.test.OrangeHRM_Login@79ad8b2f]" started-at="2023-03-10T19:50:54 IST" name="tearDown" finished-at="2023-03-10T19:50:56 IST" duration-ms="1802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OrangeHRM.test.OrangeHRM_Login -->
+    </test> <!-- test-1 -->
+  </suite> <!-- Page Object test example -->
+</testng-results>

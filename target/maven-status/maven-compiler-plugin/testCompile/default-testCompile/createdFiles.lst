@@ -1,0 +1,11 @@
+com\OrangeHRM\home\OrangeHRM_HomePage.class
+com\OrangeHRM\home\OrangeHRM_PIM.class
+com\OrangeHRM\home\OrangeHRM_SignInPage.class
+com\OrangeHRM\common\OrangeHRM_BasePage.class
+com\OrangeHRM\test\OrangeHRM_AddEmployee.class
+com\OrangeHRM\utils\OrangeHRM_ExcelParsing.class
+com\OrangeHRM\home\OrangeHRM_AddUserPage.class
+com\OrangeHRM\utils\OrangeHRM_DataBase.class
+com\OrangeHRM\common\OrangeHRM_BaseSetup.class
+com\OrangeHRM\test\OrangeHRM_Login.class
+com\OrangeHRM\utils\OrangeHRM_TestData.class
